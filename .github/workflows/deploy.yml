@@ -36,6 +36,10 @@ jobs:
 
         - name: Install dependencies
           run: yarn install
+        
+         - name: Test unit
+          run: yarn test:unit
+
 
         - name: Build page
           run: yarn build
